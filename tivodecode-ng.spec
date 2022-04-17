@@ -2,7 +2,7 @@
 
 Name:		tivodecode-ng
 Version:	%{gittag}
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	Convert a .TiVo file from TiVoToGo to a normal MPEG
 
 # sha1.c is public domain.  The QUALCOMM license is just the SSLeay
@@ -17,7 +17,7 @@ BuildRequires:	gcc-c++
 BuildRequires:	make
 
 Provides:	tivodecode = %{version}-%{release}
-Obsoletes:	tivodecode < 0.2-0.17.pre4
+Obsoletes:	tivodecode < 0.2-0.19.pre4
 
 %description
 tivodecode-ng ("ng" for "next generation") is a portable command-line
@@ -51,6 +51,9 @@ ever.)
 
 
 %changelog
+* Sun Apr 17 2022 Leigh Scott <leigh123linux@gmail.com> - 0.5-7
+- Bump obsoletes version
+
 * Wed Feb 09 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.5-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
