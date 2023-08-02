@@ -2,7 +2,7 @@
 
 Name:		tivodecode-ng
 Version:	%{gittag}
-Release:	8%{?dist}
+Release:	9%{?dist}
 Summary:	Convert a .TiVo file from TiVoToGo to a normal MPEG
 
 # sha1.c is public domain.  The QUALCOMM license is just the SSLeay
@@ -51,6 +51,9 @@ ever.)
 
 
 %changelog
+* Wed Aug 02 2023 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.5-9
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_39_Mass_Rebuild
+
 * Mon Aug 08 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.5-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild and ffmpeg
   5.1
